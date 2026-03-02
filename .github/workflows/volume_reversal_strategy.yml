@@ -3,7 +3,7 @@ name: volume_reversal_strategy
 on:
   schedule:
     # 北京时间 15:35 运行 (UTC 07:35)
-    - cron: '35 7 * * *'
+    - cron: '35 10 * * *'
   workflow_dispatch: # 支持手动触发
   push:
     paths:
